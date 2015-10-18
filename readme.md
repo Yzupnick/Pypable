@@ -1,1 +1,1 @@
-#Pypable - pipe files anywhere.
+#Pypable - pipe files Azure Blob Storage.
