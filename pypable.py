@@ -1,7 +1,7 @@
 import argparse
 import sys
 from local_file import LocalFile
-#from blob_storage import BlobStorage
+from blob_storage import AzureBlobStorage
 
 
 parser = argparse.ArgumentParser(description = 'Easily pipe files or text anywhere')
