@@ -40,7 +40,7 @@ class LocalFile(BaseDestination):
             new_file.write(contants)
 
 
-class AzureBlobStorage(object):
+class AzureBlobStorage(BaseDestination):
     name = "blobs"
     help_text = "save to azure blob storage"
 
